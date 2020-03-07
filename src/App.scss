@@ -1,0 +1,129 @@
+//@import "~bulma/bulma";
+
+$powder-blue: #C4D4E0;
+$nantucket: #9AABB9;
+$apricot: #E2B49A; 
+$jasmine: #E9C77B;
+$ink: #193446; 
+$ink-dark: #132836;
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.App {
+  text-align: left;
+  color: $ink; 
+  font-family: 'Raleway', sans-serif;
+  background-color: $powder-blue;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.header-block {
+  background-color: $apricot;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  font-size: calc(10px + 2vmin);
+  font-family: 'Raleway', sans-serif;
+
+  .header-phrase {
+    color: $ink;
+    animation: 2s fade-in;
+    margin-left: calc(10px + 2vmin);
+    vertical-align: middle;
+  }
+}
+
+.education-block {
+  background-color: $jasmine;
+  display:flex; 
+  flex-direction: column;
+}
+
+.experience-block {
+  background-color: $powder-blue;
+  display: flex;
+  flex-direction: column;
+}
+
+.more-block {
+  background-color: $nantucket;
+  display: flex;
+  flex-direction: column;  
+}
+
+.contact-block {
+  background-color: $apricot;
+  display: flex;
+  flex-direction: column;    
+}
+
+.role-button{
+  border: medium solid $nantucket;
+  padding: 4px;
+  margin: 4px;
+  display: inline-flex;
+}
+
+.toggle-column {
+  background-color: $powder-blue;
+  display: inline-flex;
+  flex-direction: column;
+  margin: calc(10px + 2vmin);
+  vertical-align: middle;
+}
+
+.visual-column {
+  background-color: $powder-blue;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.container-column {
+  background-color: $powder-blue;
+  display: flex; 
+  min-height: 60vh;
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  justify-content: left;
+  font-family: 'Raleway', sans-serif;
+  vertical-align: middle;
+
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-link {
+  color: $ink-dark;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

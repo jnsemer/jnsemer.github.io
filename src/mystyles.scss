@@ -1,0 +1,45 @@
+@import "~bulma/sass/utilities/initial-variables";
+@import "~bulma/sass/utilities/functions";
+
+$powder-blue: #C4D4E0;
+$nantucket: #9AABB9;
+$apricot: #E2B49A; 
+$jasmine: #E9C77B;
+$ink: #193446; 
+$ink-dark: #132836;
+
+$family-sans: 'Raleway', sans-serif;
+
+$primary: $apricot; 
+$info: $ink; 
+$family-primary: $family-sans; 
+$title-color: $ink; 
+$link: $ink-dark; 
+$text-color: $ink;
+$button-color: $nantucket;
+$success: $jasmine; 
+$light: $powder-blue; 
+$dark: $nantucket; 
+$black: $ink; 
+
+@keyframes fade-in {
+    0% {
+      opacity: 0;
+      transform: scale(0);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+.will-fade-in {
+    animation: 2s fade-in;
+}  
+
+.will-fade-in-fast {
+    animation: 1s fade-in; 
+}
+
+@import "~bulma/bulma";
