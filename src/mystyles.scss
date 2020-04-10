@@ -34,12 +34,33 @@ $black: $ink;
     }
   }
 
+  @keyframes slide-in {
+    100% { transform: translateX(0%); }
+}
+
+@keyframes slide-out {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-100%); }
+}
+
 .will-fade-in {
     animation: 2s fade-in;
 }  
 
 .will-fade-in-fast {
     animation: 1s fade-in; 
+}
+
+.will-slide-left {
+  animation: slide-in 0.5s forwards;
+}
+
+.slide-in {
+  animation: slide-in 0.5s forwards;
+}
+
+.slide-out {
+  animation: slide-out 1s forwards; 
 }
 
 @import "~bulma/bulma";

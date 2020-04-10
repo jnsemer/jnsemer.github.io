@@ -1,0 +1,1 @@
+export const education = {'school': "University of Massachusetts Amherst", 'degree': "Bachelor of Science", 'major':"Computer Science", 'gradyear':2018}; 

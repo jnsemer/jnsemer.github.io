@@ -1,0 +1,1 @@
+export const contactpoints = [{'medium': 'LinkedIn', 'link':'https://www.linkedin.com/in/jocelynnsemer/', 'icon':'fab fa-linkedin-in'}, {'medium': 'GitHub', 'link':'https://github.com/jnsemer', 'icon':'fab fa-github'}, {'medium':'email', 'link':'mailto:jnsemer@gmail.com', 'icon':'fas fa-envelope'}];

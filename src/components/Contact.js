@@ -8,6 +8,7 @@ export class Contact extends Component {
             <div className='hero is-small is-primary'>
                 <div className='hero-body'>
                     <div className='content'>
+                        find me elsewhere on the web:
                         <div className='is-centered'>
                     {contact.map((contactpoint) => {
                         return (

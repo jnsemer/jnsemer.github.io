@@ -1,0 +1,1 @@
+export const headermsg = ['hey, it\'s jocelynn.','i like to learn, build, and analyze.', 'welcome to my site.'];
